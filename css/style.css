@@ -401,10 +401,12 @@ h3 {
 }
 
 @media screen and (max-width: 767px) {
+  /* css code for smartphone */
+
   .logo_img {
     margin: 0 0 40px 0;
   }
-  /* css code for smartphone */
+
   .container {
     padding: 20px;
     margin: 0;
@@ -497,6 +499,7 @@ h3 {
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: auto;
     background: #fff;
     border-radius: 0px;
   }
