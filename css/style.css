@@ -493,6 +493,20 @@ h3 {
     display: none;
   }
 
+  .info_block {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .info {
+    vertical-align: top;
+  }
+
+  .info_txt {
+    width: 360px;
+    display: inline-block;
+  }
+
   .content {
     display: flex;
     flex-direction: column-reverse;
@@ -504,6 +518,7 @@ h3 {
     flex-direction: column;
     width: 100%;
     height: auto;
+    padding-top: 0;
     background: #fff;
     border-radius: 0px;
   }
