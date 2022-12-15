@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a.link {
   text-decoration: none;
   color: #000;
@@ -373,6 +377,12 @@ h3 {
     display: none;
   }
 
+  .search_filter_btn {
+    font-size: 16px;
+    padding: 12px 15px;
+    margin: 10px 5px 30px 10px;
+  }
+
   .content {
     display: flex;
     flex-direction: column;
@@ -496,16 +506,20 @@ h3 {
 
   .info_block {
     display: flex;
+    justify-content: space-between;
     margin-top: 10px;
   }
 
   .info {
     vertical-align: top;
+    width: auto;
   }
 
   .info_txt {
-    width: 360px;
+    max-width: 300px;
     display: inline-block;
+    margin: 0;
+    padding: 0;
   }
 
   .content {
